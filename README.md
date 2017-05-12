@@ -4,7 +4,7 @@ molecule to molecule relationships
 
 Input file:
 IntActKinaseP53Pairs.csv ---- Biological interactions file with pubmedIDs
-
+model2011_2yr
 Scripts:
 moleculeSemanticRelatedness.py ---- outputs {'Gene': curgene, 'Ni': ni, 'Ns': ns, 'Ni/Ns' : (ni/ns), 'Hit' : true/false}
 where hit is true if no existing known relationship exists between the gene
