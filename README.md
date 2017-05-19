@@ -19,4 +19,6 @@ eimdatagenerator.v8.py ----- Code to generate data for training the EIM entity-e
 consists of a matrix where each row represents a ei-ej pair and the columns hold the
 sikj value (along with ei and ej indices, known relationship date, case,...)
 
+eimmodel.py: Module for building a baseline model for predicting entity entity interactions from eimdatagenerator
 
+eimsplit.py: creates test and training set
